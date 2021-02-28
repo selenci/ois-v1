@@ -8,7 +8,7 @@ public class Gravitacija{
         return (C*M)/Math.pow((r+v),2);
     }
     public static void main(String[] args) {
-        System.out.println("OIS je zakon!");
+        System.out.println("OIS je zaon! debatable");
         Scanner sc = new Scanner(System.in);
         System.out.println(izracun(sc.nextDouble()));
         System.out.println(gravity());
