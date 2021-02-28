@@ -11,6 +11,7 @@ public class Gravitacija{
         System.out.println("OIS je zaon! debatable");
         Scanner sc = new Scanner(System.in);
         System.out.println(izracun(sc.nextDouble()));
+        final String uwu = "kako si mi mogel to storiti?";
         System.out.println(gravity());
     }
 
