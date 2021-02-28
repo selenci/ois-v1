@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Gravitacija{
 
     public static double izracun(double v){
@@ -8,6 +9,8 @@ public class Gravitacija{
     }
     public static void main(String[] args) {
         System.out.println("OIS je zakon!");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(izracun(sc.nextDouble()));
         System.out.println(gravity());
     }
 
